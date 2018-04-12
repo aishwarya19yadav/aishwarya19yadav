@@ -1,0 +1,28 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "homepage": "https://aishwarya19yadav.github.io",
+    "material-ui": "^0.20.0",
+    "react": "^16.3.1",
+    "react-alert": "^4.0.2",
+    "react-dom": "^16.3.1",
+    "react-modal": "^3.3.2",
+    "react-popup": "^0.9.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^5.0.0-beta.3",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
